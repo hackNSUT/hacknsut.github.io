@@ -8,6 +8,9 @@
         $('.site-navigation').toggleClass('show');
     });
 
+    $('.collapsible').on('click', function() {
+        $(this).siblings().toggleClass('content').toggleClass('collapsible-content')
+    })
     var countdown_date = $('.countdown').data("date");
 
     $('.countdown').countdown(countdown_date, function(event) {
