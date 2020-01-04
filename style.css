@@ -41,7 +41,7 @@ body {
 }
 
 .slider img {
-  max-height: 600px;
+  max-height: 450px;
   width: 100%;
   position: relative;
 }
@@ -316,7 +316,7 @@ body {
 -----------------------------------------------------------*/
 .hero-content {
   padding: 190px 0;
-  background: url("geek1.jpg") no-repeat;
+  background: url("images/image\ \(2\).png") no-repeat;
   background-size: cover;
 }
 
@@ -329,7 +329,7 @@ body {
   padding: 0px 10px;
   padding-top: 0;
   margin: 0;
-  font-family: "Lobster", cursive;
+  font-family: arial;
   font-size: 120px;
   background: -webkit-linear-gradient(#ff9900, #25ffbf);
   -webkit-background-clip: text;
@@ -371,6 +371,14 @@ body {
   .hero-content .entry-header .entry-meta-date {
     top: 60px;
   }
+}
+
+.about-section{
+    margin:2rem
+}
+
+.about-section .col-12{
+    margin:7px
 }
 
 /*------------------------------------------------------------
