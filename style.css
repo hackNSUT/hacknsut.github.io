@@ -330,10 +330,28 @@ body {
   padding-top: 0;
   margin: 0;
   font-family: arial;
-  font-size: 120px;
+  font-size: 6rem;
   background: -webkit-linear-gradient(#ff9900, #25ffbf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 686px) {
+  .hero-content .entry-header h2 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .hero-content .entry-header h2 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .hero-content .entry-header h2 {
+    font-size: 3rem;
+  }
 }
 
 .hero-content .entry-header h4 {
@@ -364,21 +382,17 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-  .hero-content .entry-header h2 {
-    font-size: 90px;
-  }
-
   .hero-content .entry-header .entry-meta-date {
     top: 60px;
   }
 }
 
-.about-section{
-    margin:2rem
+.about-section {
+  margin: 2rem;
 }
 
-.about-section .col-12{
-    margin:7px
+.about-section .col-12 {
+  margin: 7px;
 }
 
 /*------------------------------------------------------------
