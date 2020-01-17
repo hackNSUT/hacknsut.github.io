@@ -1,0 +1,85 @@
+<div class="home-page-last-news">
+    <div class="container">
+        <div class="header">
+            <div class="entry-title" style="text-align: center;">
+                <p>Missed hackNSUT 2019?</p>
+                <h2>Hear from the winners</h2>
+            </div><!-- entry-title -->
+        </div><!-- header -->
+
+        <div class="home-page-last-news-wrap">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <figure class="featured-image">
+                        <a href="https://medium.com/@jatin15011999/memorable-24-hours-at-hacknsut-7be441b1dc1">
+                            <img src="first.jpeg" alt="fesival+celebration"> </a>
+                    </figure><!-- featured-image -->
+
+                    <div class="box-link-date">
+                        <a href="#">18.05.19</a>
+                    </div>
+
+                    <div class="content-wrapper">
+                        <div class="entry-content">
+                            <div class="entry-header">
+                                <h2><a
+                                        href="https://medium.com/@jatin15011999/memorable-24-hours-at-hacknsut-7be441b1dc1">Memorable
+                                        24 hours at HackNSUT!</a></h2>
+                            </div><!-- entry-header -->
+
+                            <div class="entry-meta">
+                                <span class="author-name"><a href="#"> By Jatin Kumar</a></span>
+                                <!-- <span class="space">|</span> -->
+                                <!-- <span class="comments-count"><a href="#">3 comments</a></span> -->
+                            </div><!-- entry-meta -->
+
+                            <div class="entry-description">
+                                <p>It has been more than a month Since, we did what no one would ever imagined
+                                    have, when we made a very step out of our home. Actually not even us!.
+                                    Remembering the evening of March 30th, 2019 still sends shivers down my
+                                    spine, It was the final of a prestigious Hackathon HackNSUT organised by
+                                    NSUT.</p>
+                            </div><!-- entry-description -->
+                        </div><!-- entry-content -->
+                    </div><!-- content-wrapper -->
+                </div><!-- .col-6 -->
+
+                <div class="col-12 col-md-6">
+                    <figure class="featured-image">
+                        <a href="https://medium.com/@tanuj.drall/drive-ai-drive-well-drive-safe-66318bd46e03">
+                            <img src="runnerUp.png" alt="fesival+celebration"> </a>
+                    </figure><!-- featured-image -->
+
+                    <div class="box-link-date">
+                        <a href="">19.05.19</a>
+                    </div>
+
+                    <div class="content-wrapper">
+                        <div class="entry-content">
+                            <div class="entry-header">
+                                <h2><a
+                                        href="https://medium.com/@tanuj.drall/drive-ai-drive-well-drive-safe-66318bd46e03">Drive
+                                        AI — Drive Well, Drive Safe</a></h2>
+                            </div><!-- entry-header -->
+
+                            <div class="entry-meta">
+                                <span class="author-name"><a href="#">By Tanuj Drall</a></span>
+                                <!-- <span class="space">|</span> -->
+                                <!-- <span class="comments-count"><a href="#">3 comments</a></span> -->
+                            </div><!-- entry-meta -->
+
+                            <div class="entry-description">
+                                <p>Drive AI is an online web application developed by the team members of MEAN
+                                    Machines during the IEEE-NSUT hackathon — hackNSUT’19.</p>
+                            </div><!-- entry-description -->
+                        </div><!-- entry-content -->
+                    </div><!-- .content-wrapper -->
+                </div><!-- col-6 -->
+            </div><!-- row -->
+            <div class="row text-center my-4" style="font-size: 1.2rem;">
+                <div class="col-12 font-weight-bold"><a href="./projects.html" target="__blank">View Projects</a></div>
+            </div>
+        </div><!-- home-page-last-news-wrap -->
+    </div><!-- container -->
+</div><!-- home-page-last-news -->
+</div>
