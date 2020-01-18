@@ -2728,24 +2728,49 @@ content: "hello";
 # sposi
 ------------------------------------------------------------*/
 .bde img {
-  max-width: 100% !important;
-  max-height: 200px !important;
+  max-width: 110% !important;
+  max-height: 225px !important;
+}
+@media screen and (min-width: 780px) {
+  .bde img {
+    max-height: 200px;
+    /* width: 45% !important; */
+    max-width: 60% !important;
+  }
+}
+.tez img {
+  max-width: 60% !important;
+  max-height: 115px !important;
+}
+@media screen and (min-width: 780px) {
+  .tez img {
+    max-height: 175px;
+    /* width: 45% !important; */
+    max-width: 50% !important;
+  }
+}
+@media screen and (max-width: 769px) {
+  .tez img {
+    max-height: 175px;
+    /* width: 45% !important; */
+    max-width: 80% !important;
+  }
 }
 .matic img {
-  max-width: 60%;
-  max-height: 160px;
-  width: 60% !important;
+  max-width: 40%;
+  max-height: 100px;
+  width: 25% !important;
 }
 @media screen and (min-width: 780px) {
   .matic img {
-    max-height: 160px;
+    max-height: 175px;
     /* width: 45% !important; */
-    max-width: 30% !important;
+    max-width: 40% !important;
   }
 }
 @media screen and (max-width: 769px) {
   .matic img {
-    max-height: 160px;
+    max-height: 175px;
     /* width: 45% !important; */
     max-width: 60% !important;
   }
