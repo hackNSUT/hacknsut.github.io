@@ -2759,20 +2759,20 @@ content: "hello";
 .matic img {
   max-width: 40%;
   max-height: 100px;
-  width: 25% !important;
+  /* width: 25% !important; */
 }
 @media screen and (min-width: 780px) {
   .matic img {
-    max-height: 175px;
+    max-height: 200px;
     /* width: 45% !important; */
-    max-width: 40% !important;
+    max-width: 20% !important;
   }
 }
 @media screen and (max-width: 769px) {
   .matic img {
     max-height: 175px;
     /* width: 45% !important; */
-    max-width: 60% !important;
+    max-width: 40% !important;
   }
 }
 .prevsponsi-wrapper {
