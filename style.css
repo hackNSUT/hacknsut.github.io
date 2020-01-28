@@ -1339,7 +1339,7 @@ content: "hello";
 ------------------------------------------------------------*/
 /* -----------------------------------------gradient for our sponsors and patrons-------------------------------------------------------- */
 .osnptbg {
-  background: linear-gradient(-45deg, ##000000, #e8f0a6, #e3dede, #897cc3);
+  background: linear-gradient(-45deg, #000000, #e8f0a6, #e3dede, #897cc3);
   background-size: 400% 400%;
   animation: grad 5s ease infinite;
 }
