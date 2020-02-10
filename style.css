@@ -300,6 +300,25 @@ nav.fill ul li a:hover:after {
   width: 200px;
   height: 200px;
 }
+.devc {
+  min-height: 90px;
+  min-width: 680px;
+  /* position: relative; */
+}
+@media screen and (max-width: 768px) {
+  .devc {
+    min-height: 60px;
+    min-width: 400px;
+    /* position: relative; */
+  }
+}
+@media screen and (max-width: 450px) {
+  .devc {
+    min-height: 40px;
+    min-width: 250px;
+    /* position: relative; */
+  }
+}
 .sponsor img {
   max-width: 200px;
   max-height: 200px;
