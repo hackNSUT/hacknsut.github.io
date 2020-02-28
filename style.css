@@ -3,7 +3,7 @@
     margin-left: 120px;
 } */
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   overflow-x: hidden !important;
   width: 100%;
 }
@@ -760,6 +760,17 @@ body {
   width: 65%;
   margin: 0 auto;
 }
+@media screen and (max-width: 400px)
+{
+  #mycarousel
+  {
+    width: 73%;
+  }
+  .carousel-inner .carousel-item img
+  {
+    height: 40vw;
+  }
+}
 .carousel-inner .carousel-item img {
   /* width: 70%; */
   height: 35vw;
@@ -780,13 +791,13 @@ body {
 .carousel-control-next-icon:after {
   content: ">";
   font-size: 50px;
-  color: red;
+  color: white;
 }
 
 .carousel-control-prev-icon:after {
   content: "<";
   font-size: 50px;
-  color: red;
+  color: white;
 }
 /* @media (max-width: 991px) {
   .carousel-inner .carousel-item img {
@@ -1316,6 +1327,7 @@ content: "hello";
   font-size: 48px;
   font-weight: 600;
   color: hsl(0, 0%, 0%);
+  padding-bottom: 40px;
 }
 
 /*------------------------------------------------------------
@@ -1668,19 +1680,9 @@ content: "hello";
 .osnptbg {
   background: linear-gradient(-45deg, #000000, #e8f0a6, #e3dede, #897cc3);
   background-size: 400% 400%;
-  animation: grad 5s ease infinite;
+  /* animation: grad 5s ease infinite; */
 }
-@keyframes grad {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+
 /*------------------------------------------------------------
 # home-page-last-news
 ------------------------------------------------------------*/
@@ -3647,4 +3649,73 @@ h3 {
   100% {
     transform: rotate(360deg);
   }
+}
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+    background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+}
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
 }
