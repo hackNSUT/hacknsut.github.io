@@ -3,7 +3,7 @@
     margin-left: 120px;
 } */
 html {
-  /* scroll-behavior: smooth; */
+  
   overflow-x: hidden !important;
   width: 100%;
 }
@@ -579,18 +579,7 @@ body {
 /*------------------------------------------------------------
 # hero
 -----------------------------------------------------------*/
-/* gradient */
-/* @keyframes grad {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
+
 /* zoom */
 .hero-content-wrapper {
   height: 100vh;
@@ -608,8 +597,7 @@ body {
   background-position: center;
   /* background-attachment: fixed; */
   transition: all 1s ease;
-  /* transform: translateY(-70px); */
-  /* animation: grad 15s ease infinite; */
+ 
 }
 .hero-content:hover {
   transform: scale(1.0098);
@@ -1886,16 +1874,6 @@ content: "hello";
 
   transform: translateX(-13px) !important;
 }
-/* @media screen and (max-width: 576px) {
-  .footer-content-wrapper .entry-title img {
-    height: 150px;
-  }
-} */
-/* @media screen and (min-width: 576px) {
-  .footer-content-wrapper .entry-title a {
-    font-size: 150px;
-  }
-} */
 
 .footer-content-wrapper .entry-mail {
   margin-top: 16px;
