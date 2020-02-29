@@ -3116,7 +3116,13 @@ content: "hello";
   /* width: 25% !important; */
 }
 .fold img{
-  width: 20%;
+  max-width: 40% !important;
+}
+@media screen and (min-width : 768px)
+{
+.fold img{
+  max-width: 20% !important;
+}
 }
 .prevsponsi-wrapper {
   padding-top: 40px;
