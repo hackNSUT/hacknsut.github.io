@@ -3076,6 +3076,10 @@ content: "hello";
   {
     width: 50% !important;
   }
+  .fold img
+  {
+    width: 50% !important;
+  }
 }
 .devf img
 {
@@ -3111,7 +3115,9 @@ content: "hello";
   max-height: 100px;
   /* width: 25% !important; */
 }
-
+.fold img{
+  width: 20%;
+}
 .prevsponsi-wrapper {
   padding-top: 40px;
   background: white;
