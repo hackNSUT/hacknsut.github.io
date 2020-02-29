@@ -3697,3 +3697,12 @@ h3 {
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
 }
+@media screen and (min-width : 1000px)
+{
+.check2{
+font-size: 80px !important;
+}
+.check1{
+  font-size: 60px !important;
+}
+}
