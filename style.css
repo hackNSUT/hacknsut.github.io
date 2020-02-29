@@ -3034,54 +3034,84 @@ content: "hello";
 /*------------------------------------------------------------
 # sposi
 ------------------------------------------------------------*/
-.bde img {
+/* .bde img {
   max-width: 110% !important;
   max-height: 225px !important;
 }
 @media screen and (min-width: 780px) {
   .bde img {
     max-height: 200px;
-    /* width: 45% !important; */
+    
     max-width: 60% !important;
   }
+} */
+.spo
+{
+  text-align: center;
+  padding: 40px;
+}
+@media screen and (max-width : 768px)
+{
+  .spo
+  {
+    padding: 20px;
+  }
+  .devf img
+  {
+    width: 80% !important;
+  }
+  .t img
+  {
+    width: 75% !important;
+  }
+  .ubi img
+  {
+    width: 60% !important;
+  }
+  .tez img
+  {
+    width: 50% !important;
+  }
+  .zi img
+  {
+    width: 50% !important;
+  }
+}
+.devf img
+{
+  width: 48% ;
+  height: auto; 
+}
+.t img
+{
+  width: 37%;
+  height: auto;
+}
+.ubi img
+{
+  width: 30%;
+  height: auto;
+}
+.matic
+{
+  padding: 40px ;
 }
 .tez img {
-  max-width: 60% !important;
-  max-height: 115px !important;
+  width: 25% ;
+  /* max-height: 115px;  */
 }
-@media screen and (min-width: 780px) {
-  .tez img {
-    max-height: 175px;
-    /* width: 45% !important; */
-    max-width: 50% !important;
-  }
+.zi img {
+  width: 25% ;
+  /* max-height: 115px;  */
 }
-@media screen and (max-width: 769px) {
-  .tez img {
-    max-height: 175px;
-    /* width: 45% !important; */
-    max-width: 80% !important;
-  }
-}
+
+
 .matic img {
-  max-width: 40%;
+  max-width: 20% !important;
   max-height: 100px;
   /* width: 25% !important; */
 }
-@media screen and (min-width: 780px) {
-  .matic img {
-    max-height: 200px;
-    /* width: 45% !important; */
-    max-width: 20% !important;
-  }
-}
-@media screen and (max-width: 769px) {
-  .matic img {
-    max-height: 175px;
-    /* width: 45% !important; */
-    max-width: 40% !important;
-  }
-}
+
 .prevsponsi-wrapper {
   padding-top: 40px;
   background: white;
