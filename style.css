@@ -3911,10 +3911,10 @@ transform: translateY(6px);
     font-size: 14px !important;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
   .tom{
     max-width: 300px;
-    font-size: 11px !important;
+    font-size: 12px !important;
   }
 }
 .tom {
