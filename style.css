@@ -1,3 +1,5 @@
+
+  
 /* .sponsor-section {
     margin-top: 90px;
     margin-left: 120px;
@@ -795,7 +797,6 @@ body {
     font-size: 30px;
     padding-bottom: 20px;
   }
-
   .carousel-control-prev-icon:after {
     font-size: 30px;
     padding-bottom: 20px;
@@ -1270,7 +1271,6 @@ content: "hello";
   padding: 0;
   position: relative;
 }
-
 .content-section .middle-cover img {
   max-width: 100%;
 } */
@@ -3201,12 +3201,10 @@ content: "hello";
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
-
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -3225,7 +3223,6 @@ body {
   padding: 4rem;
   width: 48rem;
 }
-
 h3 {
   font-size: 1.75rem;
   color: #373d51;
@@ -3747,4 +3744,201 @@ font-size: 80px !important;
 .check1{
   font-size: 60px !important;
 }
+}
+/* 
+=====tracks======
+*/
+.tom {
+  --uiTimelineMainColor: var(--timelineMainColor, #222);
+  --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
+
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* transform: translateY(-100px); */
+  max-width: 750px;
+  margin: 0 auto;
+
+}
+/* @media screen and (max-width: 720px) {
+  .tom {
+    transform: translateY(-88px);
+  }
+} */
+.tom:before {
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: var(--uiTimelineMainColor);
+
+  position: absolute;
+  top: 0;
+}
+
+.timeline__group {
+  position: relative;
+}
+
+.timeline__group:not(:first-of-type) {
+  margin-top: 4rem;
+}
+
+.timeline__year {
+  padding: 0.5rem 1.5rem;
+  color: var(--uiTimelineSecondaryColor);
+  background-color: var(--uiTimelineMainColor);
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.timeline__box {
+  position: relative;
+}
+
+.timeline__box:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.timeline__box:before {
+  content: "";
+  
+  width: 120px;
+
+  height: 4px;
+  background-color: var(--uiTimelineMainColor);
+
+  position: absolute;
+  left: 0;
+  
+}
+@media screen and (max-width: 650px) {
+  .timeline__box:before {
+    width: 62px;
+  }
+}
+.timeline__date {
+  min-width: 65px;
+  position: absolute;
+  left: 0;
+
+  box-sizing: border-box;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+
+  background-color: var(--uiTimelineMainColor);
+  color: var(--uiTimelineSecondaryColor);
+}
+
+.timeline__day {
+  font-size: 2rem;
+  font-weight: 700;
+  display: block;
+}
+
+.timeline__month {
+  display: block;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.timeline__post {
+  margin-left: 40px;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  border-left: 3px solid var(--uiTimelineMainColor);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  background-color: var(--uiTimelineSecondaryColor);
+}
+.timeline__content p
+{
+transform: translateY(6px);
+}
+
+@media screen and (min-width: 641px) {
+  .tom:before {
+    left: 30px;
+  }
+
+  .timeline__group {
+    padding-top: 55px;
+  }
+
+  .timeline__box {
+    padding-left: 80px;
+  }
+
+  .timeline__box:before {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .timeline__date {
+    top: 50%;
+    margin-top: -27px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .tom{
+    max-width: 400px;
+  }
+  .tom:before {
+    left: 0;
+  }
+
+  .timeline__group {
+    padding-top: 40px;
+  }
+
+  .timeline__box {
+    padding-left: 20px;
+    padding-top: 100px;
+  }
+
+  .timeline__box:before {
+    top: 142px;
+  }
+
+  .timeline__date {
+    top: 0;
+  }
+}
+@media screen and (max-width: 640px){
+  .tom{
+    max-width: 300px;
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 400px){
+  .tom{
+    max-width: 300px;
+    font-size: 11px !important;
+  }
+}
+.tom {
+  --timelineMainColor: #4557bb;
+  font-size: 16px;
+}
+
+.blueBand {
+  background: linear-gradient(145deg, #292f63 0%, #0e3a74 100%);
+  text-align: center;
+  width: 100%;
+  color: rgb(252, 252, 252);
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blueBand h1 {
+  display: inline-block;
+  font-size: 3em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
 }
